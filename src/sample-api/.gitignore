@@ -1,3 +1,5 @@
 test-results/
 tmp/
 routes/
+assets/node_modules
+logfile
