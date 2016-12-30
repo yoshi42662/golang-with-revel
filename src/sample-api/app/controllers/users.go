@@ -7,7 +7,6 @@ type Users struct {
 }
 
 func (c Users) Index() revel.Result {
-  // title := "index page"
   c.Flash.Success("Welcome, Yoshi")
   return c.Render()
 }

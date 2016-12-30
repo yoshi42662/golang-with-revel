@@ -1,0 +1,8 @@
+LOG:  database system was shut down at 2016-12-29 23:13:10 JST
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "yoshi" does not exist
+FATAL:  database "gorm" does not exist
+FATAL:  role "uname" does not exist
+FATAL:  role "root" does not exist
