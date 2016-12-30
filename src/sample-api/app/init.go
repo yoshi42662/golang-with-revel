@@ -1,6 +1,8 @@
 package app
 
-import "github.com/revel/revel"
+import (
+  "github.com/revel/revel"
+)
 
 func init() {
   // Filters is the default set of global filters.
@@ -23,6 +25,10 @@ func init() {
   // ( order dependent )
   // revel.OnAppStart(InitDB)
   // revel.OnAppStart(FillCache)
+  // revel.OnAppStart(InitDB) // invoke InitDB function before
+  // revel.InterceptMethod((*GormController).Begin, revel.BEFORE)
+  // revel.InterceptMethod((*GormController).Commit, revel.AFTER)
+  // revel.InterceptMethod((*GormController).Rollback, revel.FINALLY)
 }
 
 // TODO turn this into revel.HeaderFilter

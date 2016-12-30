@@ -6,6 +6,10 @@ module:testrunner
 
 GET     /                                       App.Index
 
+# Admin Resources
+GET     /admin                                  Admin.Index
+
+# User Resources
 GET     /users                                  Users.Index
 GET     /users/:id                              Users.Show
 

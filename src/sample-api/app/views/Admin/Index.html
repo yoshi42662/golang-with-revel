@@ -1,0 +1,21 @@
+{{set . "title" .title}}
+{{template "Admin/layouts/header.html" .}}
+
+<header class="jumbotron" style="background-color:#999999">
+  <div class="container">
+    <div class="row">
+      <h3>Admin controller #index</h3>
+      <p></p>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="span6">
+      {{template "App/layouts/flash.html" .}}
+    </div>
+  </div>
+</div>
+
+{{template "Admin/layouts/footer.html" .}}

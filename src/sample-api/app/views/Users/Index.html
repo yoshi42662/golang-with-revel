@@ -1,10 +1,10 @@
 {{set . "title" "Home"}}
-{{template "header.html" .}}
+{{template "App/layouts/header.html" .}}
 
-<header class="jumbotron" style="background-color:#A9F16C">
+<header class="jumbotron" style="background-color:#999999">
   <div class="container">
     <div class="row">
-      <h1>It works!</h1>
+      <h3>Users controller #index</h3>
       <p></p>
     </div>
   </div>
@@ -13,9 +13,9 @@
 <div class="container">
   <div class="row">
     <div class="span6">
-      {{template "flash.html" .}}
+      {{template "App/layouts/flash.html" .}}
     </div>
   </div>
 </div>
 
-{{template "footer.html" .}}
+{{template "App/layouts/footer.html" .}}
