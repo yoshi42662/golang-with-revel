@@ -2,4 +2,5 @@ test-results/
 tmp/
 routes/
 assets/node_modules
+assets/npm-debug.log
 logfile
