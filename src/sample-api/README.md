@@ -18,7 +18,7 @@ A high-productivity web framework for the [Go language](http://www.golang.org/).
 
 The default directory structure of a generated Revel application:
 
-    myapp               App root
+    sample-api          App root
       app               App sources
         controllers     App controllers
           init.go       Interceptor registration
@@ -38,6 +38,17 @@ The default directory structure of a generated Revel application:
 app
 
     The app directory contains the source code and templates for your application.
+
+assets
+    Resources which need precompile via webpack.
+    - js
+        Includes javascript files using ES6.
+
+    - css
+        Includes css files using sass.
+
+    - img
+        Includes images.
 
 conf
 

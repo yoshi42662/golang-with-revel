@@ -1,3 +1,9 @@
+
+/*
+ * Import CSS
+ **/
+require('../css/application.scss');
+
 window.sleep = (delay, callback) => setTimeout(callback, delay);
 
 
